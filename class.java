@@ -2,7 +2,7 @@ class
 {
  String name;
  main()
-system.out.println("constructor call");
+system.out.print("constructor call");
 name ="program";
 }
 
