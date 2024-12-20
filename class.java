@@ -1,7 +1,7 @@
 class PrimeNumbers {
     public static void main(String[] args) {
         int limit = 100;
-        System.out.println("Prime numbers between 1 and " + limit);
+        System.out.println("Prime numbers between 1 and 50 " + limit);
         for (int i = 2; i <= limit; i++) {  // Start loop at 2, since 1 is not a prime number
             boolean isPrime = true;
             int sqrt = (int) Math.sqrt(i);  // Get the square root of i, cast it to an integer
